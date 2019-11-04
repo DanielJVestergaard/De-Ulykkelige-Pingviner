@@ -1,0 +1,28 @@
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\obj\x86\Debug\IsoTDRPG.csprojAssemblyReference.cache
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\obj\x86\Debug\IsoTDRPG.csproj.CoreCompileInputs.cache
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\IsoTDRPG.exe
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\IsoTDRPG.pdb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\MonoGame.Framework.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.MediaFoundation.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.XAudio2.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.DXGI.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.Direct3D11.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.Direct2D1.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.XInput.dll
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\MonoGame.Framework.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.MediaFoundation.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.XAudio2.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.DXGI.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.Direct3D11.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.Direct2D1.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\SharpDX.XInput.xml
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\obj\x86\Debug\IsoTDRPG.csproj.CopyComplete
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\obj\x86\Debug\IsoTDRPG.exe
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\obj\x86\Debug\IsoTDRPG.pdb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\OnePixel.xnb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Bad Guy 1.xnb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Good Guy.xnb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Jinx.xnb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Need to Have.xnb
