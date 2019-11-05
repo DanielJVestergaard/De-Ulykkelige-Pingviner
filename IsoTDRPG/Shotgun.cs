@@ -12,7 +12,7 @@ namespace IsoTDRPG
         int pltCount;
         public Shotgun(int damage, int pelletCount) : base(new Projectile(damage,150,new Vector2(0,0),"Pellet", new Vector2(0,0)), 10, damage, 50, 70, 30, 30, 7, 1.8f, false)
         {
-            
+            pltCount = pelletCount;
         }
         public override void Shoot()
         {

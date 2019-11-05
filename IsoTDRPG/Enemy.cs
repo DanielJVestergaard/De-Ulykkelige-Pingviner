@@ -16,7 +16,7 @@ namespace IsoTDRPG
     {
         
         string type;
-        public Enemy(string enemyType, int health, int armor) : base(health, 10, armor, new Microsoft.Xna.Framework.Vector2(0, 0))
+        public Enemy(string enemyType, int health, int armor, Weapon weapon, Vector2 startPosition) : base(health, 10, armor, startPosition, weapon)
         {
             type = enemyType;
         }
@@ -27,9 +27,9 @@ namespace IsoTDRPG
         public override void Move(GameTime gameTime)
         {
             //Checking X Range
-            if (Game1.playerInstance.pos.X > pos.X)
+            if (GameWorld.playerInstance.pos.X > pos.X)
             {
-                if (Game1.playerInstance.pos.X - 200 < pos.X)
+                if (GameWorld.playerInstance.pos.X - 200 < pos.X)
                 {
                     direction = new Vector2(0, 0);
                 }
@@ -39,9 +39,9 @@ namespace IsoTDRPG
                 }
 
             }
-            if (Game1.playerInstance.pos.X < pos.X)
+            if (GameWorld.playerInstance.pos.X < pos.X)
             {
-                if (Game1.playerInstance.pos.X + 200 > pos.X)
+                if (GameWorld.playerInstance.pos.X + 200 > pos.X)
                 {
                     direction = new Vector2(0, 0);
                 }
@@ -56,9 +56,9 @@ namespace IsoTDRPG
             pos += ((direction * spd) * deltaTime);
 
             //Checking Y Range
-            if (Game1.playerInstance.pos.Y > pos.Y)
+            if (GameWorld.playerInstance.pos.Y > pos.Y)
             {
-                if (Game1.playerInstance.pos.Y - 200 < pos.Y)
+                if (GameWorld.playerInstance.pos.Y - 200 < pos.Y)
                 {
                     direction = new Vector2(0, 0);
                 }
@@ -69,9 +69,9 @@ namespace IsoTDRPG
                 }
 
             }
-            if (Game1.playerInstance.pos.Y < pos.Y)
+            if (GameWorld.playerInstance.pos.Y < pos.Y)
             {
-                if (Game1.playerInstance.pos.Y + 200 > pos.Y)
+                if (GameWorld.playerInstance.pos.Y + 200 > pos.Y)
                 {
                     direction = new Vector2(0, 0);
                 }
@@ -105,5 +105,6 @@ namespace IsoTDRPG
             }
 
         }
+
     }
 }

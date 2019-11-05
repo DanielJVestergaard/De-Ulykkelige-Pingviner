@@ -37,6 +37,18 @@
 /processorParam:TextureFormat=Color
 /build:Good Guy.png
 
+#begin kisspng-donuts-homer-simpson-food-bread-image-s-5b8012119ad2d3.2645488515351198896342.jpg
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyColor=255,0,255,255
+/processorParam:ColorKeyEnabled=True
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=True
+/processorParam:ResizeToPowerOfTwo=False
+/processorParam:MakeSquare=False
+/processorParam:TextureFormat=Color
+/build:kisspng-donuts-homer-simpson-food-bread-image-s-5b8012119ad2d3.2645488515351198896342.jpg;Bullet.jpg
+
 #begin Need to Have.png
 /importer:TextureImporter
 /processor:TextureProcessor

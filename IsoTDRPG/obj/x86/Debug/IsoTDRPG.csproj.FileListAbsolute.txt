@@ -26,3 +26,4 @@ C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Ba
 C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Good Guy.xnb
 C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Jinx.xnb
 C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Need to Have.xnb
+C:\Users\Jokkefu\source\repos\IsoTDRPG\IsoTDRPG\bin\Windows\x86\Debug\Content\Bullet.xnb

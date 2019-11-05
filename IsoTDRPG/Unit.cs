@@ -13,16 +13,18 @@ namespace IsoTDRPG
     {
         public Vector2 direction;
         public Vector2 pos;
+        public Weapon weapon;
         protected int hp;
         protected int spd;
         protected int arm;
         protected Texture2D sprite;
-        public Unit(int health, int speed, int armor, Vector2 position)
+        public Unit(int health, int speed, int armor, Vector2 position, Weapon equippedWeapon)
         {
             hp = health;
             spd = speed;
             arm = armor;
             pos = position;
+            weapon = equippedWeapon;
         }
         public virtual Rectangle CollisionBox
         {
@@ -57,7 +59,7 @@ namespace IsoTDRPG
             //    if (Math.Sqrt(velocity.LengthSquared()) > 1) Debug.WriteLine("Velocity: " + Math.Sqrt(velocity.LengthSquared()));
             //}
             float deltaTime = (float)gameTime.ElapsedGameTime.TotalSeconds;
-            pos += ((direction * spd) * deltaTime);
+            pos += direction * spd * deltaTime;
         }
 
         public virtual void OnCollision(Unit other)
@@ -73,8 +75,12 @@ namespace IsoTDRPG
                 OnCollision(other);
             }
         }
-            
 
+        public virtual void HealthCheck()
+        {
+
+        }
+        
         
         public virtual void Fire()
         {

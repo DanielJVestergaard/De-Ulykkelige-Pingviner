@@ -13,7 +13,11 @@ namespace IsoTDRPG
 {
     class Player : Unit
     {
-        public Player(int health, int speed, int armor) : base(health, speed, armor, new Vector2(0, 0))
+        
+        KeyboardState keyState = Keyboard.GetState();
+        MouseState mouseState = Mouse.GetState();
+        MouseState previousMouseState = Mouse.GetState();
+        public Player(int health, int speed, int armor, Vector2 startPos) : base(health, speed, armor, startPos, new Pistol(10))
         {
 
         }
@@ -26,8 +30,8 @@ namespace IsoTDRPG
         private void HandleInput()
         {
             direction = Vector2.Zero;
-
-            KeyboardState keyState = Keyboard.GetState();
+            mouseState = Mouse.GetState();
+            keyState = Keyboard.GetState();
             if (keyState.IsKeyDown(Keys.W))
             {
                 direction += new Vector2(0, -1);
@@ -52,11 +56,18 @@ namespace IsoTDRPG
             {
                 direction.Normalize();
             }
+            if (mouseState.LeftButton == ButtonState.Pressed && previousMouseState.LeftButton != ButtonState.Pressed)
+            {
+
+                weapon.Shoot();
+            }
+            previousMouseState = mouseState;
         }
         public override void Update(GameTime gameTime)
         {
             HandleInput();
             Move(gameTime);
+            
         }
         public override void Move(GameTime gameTime)
         {
@@ -78,11 +89,7 @@ namespace IsoTDRPG
             {
                 pos.Y = 800;
             }
-            else
-            {
-
-            }
-
+            
         }
         public override void OnCollision(Unit other)
         {

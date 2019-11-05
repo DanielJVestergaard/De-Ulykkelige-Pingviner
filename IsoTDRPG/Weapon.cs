@@ -11,7 +11,7 @@ namespace IsoTDRPG
     abstract class Weapon
     {
         Projectile type;
-        private Game1 gameClass;
+        
         public int rof;
         int dmg;
         int rng;
@@ -21,7 +21,7 @@ namespace IsoTDRPG
         int mgs;
         float reloadSpd;
         float reloadProg;
-        public float fireDelay;
+        protected float fireDelay;
         int maxMag;
         bool auto;
 
@@ -42,20 +42,12 @@ namespace IsoTDRPG
         }
         public virtual void Shoot()
         {
-            KeyboardState keyState = Keyboard.GetState();
-            //if (keyState.IsKeyDown())
-            //{
-            //    if (auto)
-            //    {
-            //        if (mgs > 0 && fireDelay <= 0)
-            //        {
-            //            gameClass.activeProjectiles.Add(type);
-            //        }
-            //        else Reload(reloadSpd);
-            //    }
-            //}
-            
-            
+            Projectile shotProjectile = new Projectile(10, 200, new Vector2(1, 1), "Bullet", new Vector2(500, 400));
+            GameWorld.activeProjectiles.Add(shotProjectile);
+            fireDelay += 10 / rof;
+        }
+        public virtual void Aim()
+        {
 
         }
         public void Reload(float reloadSpeed)
